@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poll-result</title>
+  <style>
+    div{
+      background-color: white;
+      height: 680px;
+      width: 1500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .results{
+      background-color: bisque;
+      height: 500px;
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="results">
+      <h1>Poll Results</h1>
+  <p>JavaScript: <span id="jsVotes">{JavaScriptVotes}</span></p>
+  <p>Python: <span id="pythonVotes">{PythonVotes}</span></p>
+  <p>Java: <span id="javaVotes">{JavaVotes}</span></p>
+  <a href="/">Back to Poll</a>
+  <script src="poll.js"></script>
+    </div>
+  </div>
+  
+</body>
+</html>
